@@ -1,5 +1,9 @@
 [libraries]
 
+lib2.files = [
+    'fsm.vhd',
+]
+
 lib1.files = [
     'reg1bit.vhd',
 ]

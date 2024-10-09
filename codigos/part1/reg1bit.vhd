@@ -14,9 +14,9 @@ end entity reg1bit;
 architecture Behaviour of reg1bit is
     signal buff : STD_LOGIC;
 begin
-    process (clk, reset)
+    process (clk)
     begin
-        if (reset = '1') then
+        if (reset = '0') then
             buff <= '0';
         elsif (rising_edge(clk)) then
             buff <= data;
