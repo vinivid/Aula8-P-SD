@@ -1,0 +1,13 @@
+[libraries]
+
+lib3.files = [
+	'fsm.vhd',
+]
+
+lib2.files = [
+	'shift_reg.vhd',
+]
+
+lib1.files = [
+	'counter.vhd',
+]
