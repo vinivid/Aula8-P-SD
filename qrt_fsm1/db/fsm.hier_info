@@ -1,4 +1,4 @@
-|fsm
+|fsm_mod
 clk => reg1bit:ff0.clk
 clk => z_state.CLK
 clk => reg_signal[0].CLK
@@ -59,70 +59,70 @@ led[7] <= reg1bit:ff7.q
 led[8] <= reg1bit:ff8.q
 
 
-|fsm|reg1bit:ff0
+|fsm_mod|reg1bit:ff0
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff1
+|fsm_mod|reg1bit:ff1
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff2
+|fsm_mod|reg1bit:ff2
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff3
+|fsm_mod|reg1bit:ff3
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff4
+|fsm_mod|reg1bit:ff4
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff5
+|fsm_mod|reg1bit:ff5
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff6
+|fsm_mod|reg1bit:ff6
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff7
+|fsm_mod|reg1bit:ff7
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ff8
+|fsm_mod|reg1bit:ff8
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
 q <= buff.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|fsm|reg1bit:ffz
+|fsm_mod|reg1bit:ffz
 clk => buff.CLK
 reset => buff.ACLR
 data => buff.DATAIN
