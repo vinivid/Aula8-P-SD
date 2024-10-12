@@ -1,5 +1,5 @@
 
-State Machine - |fsm_mod|state
+State Machine - |fsm|state
 Name state.I state.H state.G state.F state.E state.D state.C state.B state.A 
 state.A 0 0 0 0 0 0 0 0 0 
 state.B 0 0 0 0 0 0 0 1 1 

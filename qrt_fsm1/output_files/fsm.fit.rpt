@@ -1,5 +1,5 @@
 Fitter report for fsm
-Sat Oct 12 14:15:49 2024
+Sat Oct 12 14:21:30 2024
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -63,10 +63,10 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Sat Oct 12 14:15:49 2024       ;
+; Fitter Status                   ; Successful - Sat Oct 12 14:21:30 2024       ;
 ; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                   ; fsm                                         ;
-; Top-level Entity Name           ; fsm_mod                                     ;
+; Top-level Entity Name           ; fsm                                         ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
@@ -160,7 +160,7 @@ https://fpgasoftware.intel.com/eula.
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.2%      ;
 ;     Processor 3            ;   0.2%      ;
-;     Processor 4            ;   0.2%      ;
+;     Processor 4            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -179,8 +179,8 @@ https://fpgasoftware.intel.com/eula.
 ; Type                ; Total [A + B]     ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+-------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                   ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 66 ) ; 0.00 % ( 0 / 66 )          ; 0.00 % ( 0 / 66 )        ;
-;     -- Achieved     ; 0.00 % ( 0 / 66 ) ; 0.00 % ( 0 / 66 )          ; 0.00 % ( 0 / 66 )        ;
+;     -- Requested    ; 0.00 % ( 0 / 67 ) ; 0.00 % ( 0 / 67 )          ; 0.00 % ( 0 / 67 )        ;
+;     -- Achieved     ; 0.00 % ( 0 / 67 ) ; 0.00 % ( 0 / 67 )          ; 0.00 % ( 0 / 67 )        ;
 ;                     ;                   ;                            ;                          ;
 ; Routing (by net)    ;                   ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )  ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -203,7 +203,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 66 )     ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 67 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -211,7 +211,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/15491959/Desktop/qrt_fsm1/output_files/fsm.pin.
+The pin-out file can be found in C:/Users/15491959/Desktop/al8/qrt_fsm1/output_files/fsm.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -235,17 +235,17 @@ The pin-out file can be found in C:/Users/15491959/Desktop/qrt_fsm1/output_files
 ;                                                             ;                    ;       ;
 ; Difficulty packing design                                   ; Low                ;       ;
 ;                                                             ;                    ;       ;
-; Total LABs:  partially or completely used                   ; 4 / 1,848          ; < 1 % ;
-;     -- Logic LABs                                           ; 4                  ;       ;
+; Total LABs:  partially or completely used                   ; 3 / 1,848          ; < 1 % ;
+;     -- Logic LABs                                           ; 3                  ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                  ;       ;
 ;                                                             ;                    ;       ;
-; Combinational ALUT usage for logic                          ; 10                 ;       ;
+; Combinational ALUT usage for logic                          ; 11                 ;       ;
 ;     -- 7 input functions                                    ; 0                  ;       ;
 ;     -- 6 input functions                                    ; 2                  ;       ;
 ;     -- 5 input functions                                    ; 0                  ;       ;
 ;     -- 4 input functions                                    ; 2                  ;       ;
-;     -- <=3 input functions                                  ; 6                  ;       ;
-; Combinational ALUT usage for route-throughs                 ; 12                 ;       ;
+;     -- <=3 input functions                                  ; 7                  ;       ;
+; Combinational ALUT usage for route-throughs                 ; 11                 ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 29                 ;       ;
 ;     -- By type:                                             ;                    ;       ;
@@ -280,7 +280,7 @@ The pin-out file can be found in C:/Users/15491959/Desktop/qrt_fsm1/output_files
 ; Oscillator blocks                                           ; 0 / 1              ; 0 %   ;
 ; Impedance control blocks                                    ; 0 / 3              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.0% / 0.0% / 0.0% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 0.3% / 0.3% / 0.4% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 0.3% / 0.2% / 0.3% ;       ;
 ; Maximum fan-out                                             ; 29                 ;       ;
 ; Highest non-global fan-out                                  ; 19                 ;       ;
 ; Total fan-out                                               ; 138                ;       ;
@@ -309,17 +309,17 @@ The pin-out file can be found in C:/Users/15491959/Desktop/qrt_fsm1/output_files
 ;                                                             ;                      ;                                ;
 ; Difficulty packing design                                   ; Low                  ; Low                            ;
 ;                                                             ;                      ;                                ;
-; Total LABs:  partially or completely used                   ; 4 / 1848 ( < 1 % )   ; 0 / 1848 ( 0 % )               ;
-;     -- Logic LABs                                           ; 4                    ; 0                              ;
+; Total LABs:  partially or completely used                   ; 3 / 1848 ( < 1 % )   ; 0 / 1848 ( 0 % )               ;
+;     -- Logic LABs                                           ; 3                    ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
-; Combinational ALUT usage for logic                          ; 10                   ; 0                              ;
+; Combinational ALUT usage for logic                          ; 11                   ; 0                              ;
 ;     -- 7 input functions                                    ; 0                    ; 0                              ;
 ;     -- 6 input functions                                    ; 2                    ; 0                              ;
 ;     -- 5 input functions                                    ; 0                    ; 0                              ;
 ;     -- 4 input functions                                    ; 2                    ; 0                              ;
-;     -- <=3 input functions                                  ; 6                    ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 12                   ; 0                              ;
+;     -- <=3 input functions                                  ; 7                    ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 11                   ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
 ;     -- 32-address deep                                      ; 0                    ; 0                              ;
@@ -934,23 +934,23 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+-------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                   ;
-+----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+----------------------+-------------+--------------+
-; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name  ; Entity Name ; Library Name ;
-+----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+----------------------+-------------+--------------+
-; |fsm_mod                   ; 8.5 (7.4)            ; 15.0 (10.9)                      ; 6.5 (3.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 29 (19)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 13   ; 0            ; |fsm_mod             ; fsm_mod     ; work         ;
-;    |reg1bit:ff0|           ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff0 ; reg1bit     ; work         ;
-;    |reg1bit:ff1|           ; 0.3 (0.3)            ; 0.5 (0.5)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff1 ; reg1bit     ; work         ;
-;    |reg1bit:ff2|           ; 0.0 (0.0)            ; 0.3 (0.3)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff2 ; reg1bit     ; work         ;
-;    |reg1bit:ff3|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff3 ; reg1bit     ; work         ;
-;    |reg1bit:ff4|           ; 0.3 (0.3)            ; 0.3 (0.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff4 ; reg1bit     ; work         ;
-;    |reg1bit:ff5|           ; 0.0 (0.0)            ; 0.3 (0.3)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff5 ; reg1bit     ; work         ;
-;    |reg1bit:ff6|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff6 ; reg1bit     ; work         ;
-;    |reg1bit:ff7|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff7 ; reg1bit     ; work         ;
-;    |reg1bit:ff8|           ; 0.0 (0.0)            ; 0.3 (0.3)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ff8 ; reg1bit     ; work         ;
-;    |reg1bit:ffz|           ; 0.0 (0.0)            ; 0.3 (0.3)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm_mod|reg1bit:ffz ; reg1bit     ; work         ;
-+----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+----------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                  ;
++----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
+; |fsm                       ; 8.5 (7.7)            ; 15.0 (10.4)                      ; 6.5 (2.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 11 (11)             ; 29 (19)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 13   ; 0            ; |fsm                ; fsm         ; work         ;
+;    |reg1bit:ff0|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff0    ; reg1bit     ; work         ;
+;    |reg1bit:ff1|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff1    ; reg1bit     ; work         ;
+;    |reg1bit:ff2|           ; 0.0 (0.0)            ; 0.3 (0.3)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff2    ; reg1bit     ; work         ;
+;    |reg1bit:ff3|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff3    ; reg1bit     ; work         ;
+;    |reg1bit:ff4|           ; -0.2 (-0.2)          ; 0.3 (0.3)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff4    ; reg1bit     ; work         ;
+;    |reg1bit:ff5|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff5    ; reg1bit     ; work         ;
+;    |reg1bit:ff6|           ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff6    ; reg1bit     ; work         ;
+;    |reg1bit:ff7|           ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff7    ; reg1bit     ; work         ;
+;    |reg1bit:ff8|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ff8    ; reg1bit     ; work         ;
+;    |reg1bit:ffz|           ; 0.0 (0.0)            ; 0.5 (0.5)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |fsm|reg1bit:ffz    ; reg1bit     ; work         ;
++----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -970,7 +970,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; led[7] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; led[8] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; clk    ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; reset  ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; reset  ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; w      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 +--------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
@@ -983,25 +983,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; clk                     ;                   ;         ;
 ;      - clk~inputCLKENA0 ; 1                 ; 0       ;
 ; reset                   ;                   ;         ;
-;      - z_state          ; 0                 ; 0       ;
-;      - reg_signal[0]    ; 0                 ; 0       ;
-;      - reg_signal[1]    ; 0                 ; 0       ;
-;      - reg_signal[2]    ; 0                 ; 0       ;
-;      - reg_signal[3]    ; 0                 ; 0       ;
-;      - reg_signal[4]    ; 0                 ; 0       ;
-;      - reg_signal[5]    ; 0                 ; 0       ;
-;      - reg_signal[6]    ; 0                 ; 0       ;
-;      - reg_signal[7]    ; 0                 ; 0       ;
-;      - reg_signal[8]    ; 0                 ; 0       ;
-;      - state~11         ; 0                 ; 0       ;
-;      - state~12         ; 0                 ; 0       ;
-;      - state~13         ; 0                 ; 0       ;
-;      - state~14         ; 0                 ; 0       ;
-;      - state~15         ; 0                 ; 0       ;
-;      - state~16         ; 0                 ; 0       ;
-;      - state~17         ; 0                 ; 0       ;
-;      - state~18         ; 0                 ; 0       ;
-;      - state.A~feeder   ; 0                 ; 0       ;
+;      - z_state          ; 1                 ; 0       ;
+;      - reg_signal[1]    ; 1                 ; 0       ;
+;      - reg_signal[2]    ; 1                 ; 0       ;
+;      - reg_signal[3]    ; 1                 ; 0       ;
+;      - reg_signal[4]    ; 1                 ; 0       ;
+;      - reg_signal[5]    ; 1                 ; 0       ;
+;      - reg_signal[6]    ; 1                 ; 0       ;
+;      - reg_signal[7]    ; 1                 ; 0       ;
+;      - reg_signal[8]    ; 1                 ; 0       ;
+;      - reg_signal~0     ; 1                 ; 0       ;
+;      - state~11         ; 1                 ; 0       ;
+;      - state~12         ; 1                 ; 0       ;
+;      - state~13         ; 1                 ; 0       ;
+;      - state~14         ; 1                 ; 0       ;
+;      - state~15         ; 1                 ; 0       ;
+;      - state~16         ; 1                 ; 0       ;
+;      - state~17         ; 1                 ; 0       ;
+;      - state~18         ; 1                 ; 0       ;
+;      - state.A~feeder   ; 1                 ; 0       ;
 ; w                       ;                   ;         ;
 ;      - state~11         ; 0                 ; 0       ;
 ;      - state~12         ; 0                 ; 0       ;
@@ -1038,21 +1038,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+------------------------+
 ; Routing Resource Type        ; Usage                  ;
 +------------------------------+------------------------+
-; Block interconnects          ; 31 / 140,056 ( < 1 % ) ;
+; Block interconnects          ; 28 / 140,056 ( < 1 % ) ;
 ; C12 interconnects            ; 4 / 6,048 ( < 1 % )    ;
-; C2 interconnects             ; 14 / 54,648 ( < 1 % )  ;
-; C4 interconnects             ; 9 / 25,920 ( < 1 % )   ;
+; C2 interconnects             ; 11 / 54,648 ( < 1 % )  ;
+; C4 interconnects             ; 5 / 25,920 ( < 1 % )   ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )         ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )         ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )         ;
-; Direct links                 ; 8 / 140,056 ( < 1 % )  ;
+; Direct links                 ; 4 / 140,056 ( < 1 % )  ;
 ; Global clocks                ; 1 / 16 ( 6 % )         ;
-; Local interconnects          ; 12 / 36,960 ( < 1 % )  ;
+; Local interconnects          ; 16 / 36,960 ( < 1 % )  ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )         ;
 ; R14 interconnects            ; 5 / 5,984 ( < 1 % )    ;
 ; R14/C12 interconnect drivers ; 7 / 9,504 ( < 1 % )    ;
-; R3 interconnects             ; 13 / 60,192 ( < 1 % )  ;
-; R6 interconnects             ; 12 / 127,072 ( < 1 % ) ;
+; R3 interconnects             ; 10 / 60,192 ( < 1 % )  ;
+; R6 interconnects             ; 13 / 127,072 ( < 1 % ) ;
 ; Spine clocks                 ; 1 / 120 ( < 1 % )      ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )      ;
 +------------------------------+------------------------+
@@ -1181,7 +1181,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------+----------------------+-------------------+
 ; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; clk             ; clk                  ; 3.2               ;
+; clk             ; clk                  ; 4.1               ;
 +-----------------+----------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
@@ -1192,21 +1192,25 @@ This will disable optimization of problematic paths and expose them for further 
 +-----------------+----------------------+-------------------+
 ; Source Register ; Destination Register ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; state.I         ; state.F              ; 0.305             ;
-; state.E         ; state.B              ; 0.287             ;
-; state.G         ; state.F              ; 0.277             ;
-; state.C         ; state.B              ; 0.255             ;
-; state.B         ; state.C              ; 0.253             ;
-; state.F         ; state.G              ; 0.237             ;
-; state.D         ; state.E              ; 0.232             ;
-; state.H         ; state.I              ; 0.131             ;
-; state.A         ; reg_signal[0]        ; 0.039             ;
-; reg_signal[0]   ; reg1bit:ff0|buff     ; 0.038             ;
-; reg_signal[7]   ; reg1bit:ff7|buff     ; 0.036             ;
-; reg_signal[6]   ; reg1bit:ff6|buff     ; 0.025             ;
-; reg_signal[1]   ; reg1bit:ff1|buff     ; 0.025             ;
+; state.I         ; state.F              ; 0.308             ;
+; state.E         ; state.B              ; 0.304             ;
+; state.G         ; state.F              ; 0.279             ;
+; state.C         ; state.B              ; 0.275             ;
+; state.A         ; reg_signal[0]        ; 0.272             ;
+; state.B         ; state.C              ; 0.258             ;
+; state.F         ; state.G              ; 0.244             ;
+; state.D         ; state.E              ; 0.235             ;
+; state.H         ; state.I              ; 0.216             ;
+; reg_signal[0]   ; reg1bit:ff0|buff     ; 0.039             ;
+; reg_signal[1]   ; reg1bit:ff1|buff     ; 0.038             ;
+; reg_signal[7]   ; reg1bit:ff7|buff     ; 0.037             ;
+; reg_signal[5]   ; reg1bit:ff5|buff     ; 0.037             ;
+; z_state         ; reg1bit:ffz|buff     ; 0.037             ;
+; reg_signal[6]   ; reg1bit:ff6|buff     ; 0.026             ;
+; reg_signal[3]   ; reg1bit:ff3|buff     ; 0.026             ;
+; reg_signal[8]   ; reg1bit:ff8|buff     ; 0.025             ;
 +-----------------+----------------------+-------------------+
-Note: This table only shows the top 13 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 17 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1249,23 +1253,23 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.30 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.27 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
-Info (144001): Generated suppressed messages file C:/Users/15491959/Desktop/qrt_fsm1/output_files/fsm.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/15491959/Desktop/al8/qrt_fsm1/output_files/fsm.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6213 megabytes
-    Info: Processing ended: Sat Oct 12 14:15:49 2024
-    Info: Elapsed time: 00:00:15
+    Info: Peak virtual memory: 6228 megabytes
+    Info: Processing ended: Sat Oct 12 14:21:30 2024
+    Info: Elapsed time: 00:00:16
     Info: Total CPU time (on all processors): 00:00:24
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/15491959/Desktop/qrt_fsm1/output_files/fsm.fit.smsg.
+The suppressed messages can be found in C:/Users/15491959/Desktop/al8/qrt_fsm1/output_files/fsm.fit.smsg.
 
 

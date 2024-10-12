@@ -1,0 +1,37 @@
+C:/Users/15491959/Desktop/msim2/fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\15491959\Desktop\msim2\fsm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fsm
+-- Compiling architecture Behaviour of fsm
+
+} {} {}} C:/Users/15491959/Desktop/msim2/rcounter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/15491959/Desktop/msim2/rcounter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rcounter
+-- Compiling architecture Behaviour of rcounter
+
+} {} {}} C:/Users/15491959/Desktop/msim2/shift_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\15491959\Desktop\msim2\shift_reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shift_reg
+-- Compiling architecture Behaviour of shift_reg
+
+} {} {}} C:/Users/15491959/Desktop/msim2/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/15491959/Desktop/msim2/counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter
+-- Compiling architecture Behaviour of counter
+
+} {} {}}

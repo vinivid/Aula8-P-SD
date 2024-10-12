@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+Ecounter
+Z0 w1728748492
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/15491959/Desktop/msim2
+Z5 8C:/Users/15491959/Desktop/msim2/counter.vhd
+Z6 FC:/Users/15491959/Desktop/msim2/counter.vhd
+l0
+L5
+VmD^1hL42gEB>B:YCH5O342
+!s100 iBm]mSdmmVaJbdV:`BnTN3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1728762398
+!i10b 1
+Z9 !s108 1728762398.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15491959/Desktop/msim2/counter.vhd|
+Z11 !s107 C:/Users/15491959/Desktop/msim2/counter.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+R3
+DEx4 work 7 counter 0 22 mD^1hL42gEB>B:YCH5O342
+l20
+L19
+VTDm`MM@L3mcG>3Bc8e1n>0
+!s100 C:1M0Xj];PUd=oHl_I=4z3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efsm
+Z14 w1728762212
+R1
+R2
+R3
+R4
+Z15 8C:\Users\15491959\Desktop\msim2\fsm.vhd
+Z16 FC:\Users\15491959\Desktop\msim2\fsm.vhd
+l0
+L5
+Vm98<lR<aZm`h`FPPW6gTN1
+!s100 mJ0A4C3;E4[^]hd3T3mKC1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\15491959\Desktop\msim2\fsm.vhd|
+Z18 !s107 C:\Users\15491959\Desktop\msim2\fsm.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R1
+R2
+R3
+DEx4 work 3 fsm 0 22 m98<lR<aZm`h`FPPW6gTN1
+l85
+L15
+VmATZ^G>VJi;6g2iKFL[L<0
+!s100 zz=bHUn4RYU]oOzIV2Qod1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ercounter
+R0
+R1
+R2
+R3
+R4
+Z19 8C:/Users/15491959/Desktop/msim2/rcounter.vhd
+Z20 FC:/Users/15491959/Desktop/msim2/rcounter.vhd
+l0
+L5
+VS]AmVgidl]0IaeCim?]kD1
+!s100 9Bj:3LYLH96zn7XV1iG`M1
+R7
+32
+R8
+!i10b 1
+R9
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15491959/Desktop/msim2/rcounter.vhd|
+Z22 !s107 C:/Users/15491959/Desktop/msim2/rcounter.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R1
+R2
+R3
+DEx4 work 8 rcounter 0 22 S]AmVgidl]0IaeCim?]kD1
+l21
+L19
+VPUf>5Vh^S>NPDRX@>T9zg1
+!s100 7lDnTAo>CR@aFWGW>7BL[2
+R7
+32
+R8
+!i10b 1
+R9
+R21
+R22
+!i113 1
+R12
+R13
+Eshift_reg
+Z23 w1728762050
+R1
+R2
+R3
+R4
+Z24 8C:\Users\15491959\Desktop\msim2\shift_reg.vhd
+Z25 FC:\Users\15491959\Desktop\msim2\shift_reg.vhd
+l0
+L5
+VRmT0Y?:IPVXY^QVAB_m;K2
+!s100 >02DJEC6nF<S2PiNiH>XN0
+R7
+32
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\15491959\Desktop\msim2\shift_reg.vhd|
+Z27 !s107 C:\Users\15491959\Desktop\msim2\shift_reg.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R1
+R2
+R3
+Z28 DEx4 work 9 shift_reg 0 22 RmT0Y?:IPVXY^QVAB_m;K2
+l17
+L15
+Z29 V;5S9FNo7jI47EGmY<]@Il0
+Z30 !s100 RihBdVE@Md<N15D85D@c:1
+R7
+32
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
