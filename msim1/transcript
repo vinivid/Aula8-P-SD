@@ -1,0 +1,52 @@
+# Compile of fsm.vhd was successful.
+# Compile of reg1bit.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.fsm
+# vsim -gui work.fsm 
+# Start time: 13:58:01 on Oct 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm(behaviour)
+# Loading work.reg1bit(behaviour)
+add wave -position insertpoint sim:/fsm/*
+force -freeze sim:/fsm/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/fsm/reset 1 0
+force -freeze sim:/fsm/w 0 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/fsm/w 1 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/fsm/w 0 0
+run
+run
+run
+force -freeze sim:/fsm/w 1 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/fsm/w 0 0
+run
+run
+run
+run
+force -freeze sim:/fsm/w 1 0
+run
+run
+run
