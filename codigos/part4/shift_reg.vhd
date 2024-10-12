@@ -15,9 +15,11 @@ end entity shift_reg;
 architecture Behaviour of shift_reg is
     signal word : STD_LOGIC_VECTOR(3 downto 0) := (others => '0');
 begin
-    process (clk)
+    process (clk, reset)
     begin
-        if (rising_edge(clk)) then
+        if (reset = '1') then
+            word <= (others => '0');
+        elsif (rising_edge(clk)) then
             if (enable = '1') then
                 word <= d;
             else 

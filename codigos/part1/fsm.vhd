@@ -28,85 +28,16 @@ architecture Behaviour of fsm is
     signal state : state_type := A;
 begin
 
-    ff0 : reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(0),
-        q => led(0)
-    );
-
-    ff1 : reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(1),
-        q => led(1)
-    );
-
-    ff2: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(2),
-        q => led(2)
-    );
-
-    ff3: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(3),
-        q => led(3)
-    );
-    
-    ff4: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(4),
-        q => led(4)
-    );
-
-    ff5: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(5),
-        q => led(5)
-    );
-
-    ff6: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(6),
-        q => led(6)
-    );
-
-    ff7: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(7),
-        q => led(7)
-    );
-
-    ff8: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => reg_signal(8),
-        q => led(8)
-    );
-
-    ffz: reg1bit
-     port map(
-        clk => clk,
-        reset => reset,
-        data => z_state,
-        q => z
-    );
+    ff0 : reg1bit port map(clk => clk, reset => reset, data => reg_signal(0), q => led(0));
+    ff1 : reg1bit port map(clk => clk, reset => reset, data => reg_signal(1), q => led(1));
+    ff2: reg1bit port map(clk => clk, reset => reset,data => reg_signal(2), q => led(2));
+    ff3: reg1bit port map( clk => clk, reset => reset, data => reg_signal(3), q => led(3));
+    ff4: reg1bit port map( clk => clk, reset => reset, data => reg_signal(4), q => led(4));
+    ff5: reg1bit port map( clk => clk, reset => reset, data => reg_signal(5), q => led(5));
+    ff6: reg1bit port map( clk => clk, reset => reset, data => reg_signal(6), q => led(6));
+    ff7: reg1bit port map( clk => clk, reset => reset, data => reg_signal(7), q => led(7));
+    ff8: reg1bit port map( clk => clk, reset => reset, data => reg_signal(8), q => led(8));
+    ffz: reg1bit port map( clk => clk, reset => reset, data => z_state, q => z);
 
     process (clk)
     begin

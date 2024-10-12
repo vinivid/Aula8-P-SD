@@ -1,5 +1,9 @@
 [libraries]
 
+lib4.files = [
+	'rcounter.vhd',
+]
+
 lib3.files = [
 	'fsm.vhd',
 ]
