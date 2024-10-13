@@ -141,6 +141,10 @@ case state is
 end case; 
 ``` 
 
+O código que contem a outra tabela verdade requer a modificação minima de mudar o reset para todos os bits em zero, e associar o flip flop de A para 1 em todos os estados que não são o A. 
+
+Esse código esta localizado [./codigos/part1/fsm_mod.vhd](https://github.com/vinivid/Aula8-P-SD/blob/main/codigos/part1/fsm_mod.vhd)
+
 ## Parte 4
 
 O problema 4 possui duas partes principais, uma é ler a entrada do código morse a outra é enviar o código morse através do led. Para a parte de ler a entrada podemos criar um estado no qual a maquina não faz nada e apenas espera pela entrada de um código. Após receber o código armazena o tamanho da palavra e uma série de bits que representa cada carácter da palavra. 
