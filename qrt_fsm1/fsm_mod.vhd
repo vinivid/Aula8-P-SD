@@ -41,13 +41,13 @@ begin
 
     process (clk)
     begin
-        if (rising_edge(clk)) then
-            if (reset = '0') then
+			if (reset = '0') then
                 state <= A;
                 reg_signal(0) <= '0';
                 reg_signal(8 downto 1) <= (others => '0');
 				z_state <= '0';
-            else 
+			elsif (rising_edge(clk)) then
+         
                 case state is
                     when A =>
                         z_state <= '0'; 
@@ -154,7 +154,6 @@ begin
                         end if;
                 end case; 
             end if;
-        end if;
     end process;
     
 end architecture Behaviour;

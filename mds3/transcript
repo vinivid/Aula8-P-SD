@@ -1,0 +1,48 @@
+# Compile of fsm_mod.vhd failed with 2 errors.
+# Compile of reg1bit.vhd was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of fsm_mod.vhd was successful.
+# Compile of reg1bit.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.fsm_mod
+# vsim -gui work.fsm_mod 
+# Start time: 15:31:10 on Oct 15,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_mod(behaviour)
+# Loading work.reg1bit(behaviour)
+add wave -position insertpoint sim:/fsm_mod/*
+force -freeze sim:/fsm_mod/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/fsm_mod/reset 0 0
+force -freeze sim:/fsm_mod/w 0 0
+run
+force -freeze sim:/fsm_mod/reset 1 0
+run
+force -freeze sim:/fsm_mod/w 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/fsm_mod/w 0 0
+run
+run
+run
+force -freeze sim:/fsm_mod/w 1 0
+run -continue
+run
+run
+run
+run
+run
+force -freeze sim:/fsm_mod/w 0 0
+run
+run
+# WARNING: No extended dataflow license exists
+# End time: 16:15:41 on Oct 15,2024, Elapsed time: 0:44:31
+# Errors: 0, Warnings: 1

@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Successful - Sat Oct 12 14:21:13 2024
+Analysis & Synthesis Status : Successful - Tue Oct 15 15:49:36 2024
 Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : fsm
-Top-level Entity Name : fsm
+Top-level Entity Name : fsm_mod
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 29

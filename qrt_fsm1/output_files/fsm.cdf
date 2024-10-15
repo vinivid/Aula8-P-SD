@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEBA4F23) Path("C:/Users/15491959/Desktop/al8/qrt_fsm1/output_files/") File("fsm.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEBA4F23) Path("C:/Users/15491959/Desktop/gnose/qrt_fsm1/output_files/") File("fsm.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

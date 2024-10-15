@@ -1,11 +1,11 @@
-Fitter Status : Successful - Sat Oct 12 14:21:30 2024
+Fitter Status : Successful - Tue Oct 15 15:49:52 2024
 Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : fsm
-Top-level Entity Name : fsm
+Top-level Entity Name : fsm_mod
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 9 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 8 / 18,480 ( < 1 % )
 Total registers : 29
 Total pins : 13 / 224 ( 6 % )
 Total virtual pins : 0
